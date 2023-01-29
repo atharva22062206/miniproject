@@ -4,7 +4,7 @@ selectMenu = document.querySelectorAll("select"),
 setAlarmBtn = document.querySelector("button");
 
 let alarmTime, isAlarmSet,
-ringtone = new Audio("music/bonespaglasongs_BMeuFKa9.mp3");
+ringtone = new Audio(""./files/music/bonespaglasongs_BMeuFKa9.mp3");
 
 for (let i = 12; i > 0; i--) {
     i = i < 10 ? `0${i}` : i;
