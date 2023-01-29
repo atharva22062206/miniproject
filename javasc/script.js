@@ -62,7 +62,7 @@ function setAlarm() {
     alarmTime = time;
     isAlarmSet = true;
     content.classList.add("disable");
-    setAlarmBtn.innerText = "Clear Alarm";
+    setAlarmBtn.innerText = "Clear Announcement";
 }
 
 setAlarmBtn.addEventListener("click", setAlarm);
