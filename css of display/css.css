@@ -1,0 +1,36 @@
+table {
+  width: 50%; /* Sets the width of the table to 80% of the container */
+  margin: auto; /* Centers the table horizontally on the page */
+}
+
+#list th {
+  background-color: rgb(196, 107, 43); /* Changes the background color of the table header cells to lightgray */
+  text-align: center; /* Centers the text within the table header cells */
+}
+
+#list td {
+  text-align: center; /* Centers the text within the table data cells */
+}
+
+#input1, #input2, #input3 {
+  width: 200px; /* Changes the width of the input fields to 200px */
+  height: 30px; /* Changes the height of the input fields to 30px */
+  margin-bottom: 10px; /* Adds a margin of 10px to the bottom of the input fields */
+}
+
+form {
+  margin: 20px 0; /* Adds a margin of 20px to the top and bottom of the form */
+  text-align: center; /* Centers the form on the page */
+}
+
+button {
+  background-color: blue; /* Changes the background color of the button to blue */
+  color: white; /* Changes the text color of the button to white */
+  padding: 10px 20px; /* Adds padding of 10px to the top and bottom and 20px to the left and right of the button */
+  border-radius: 5px; /* Rounds the corners of the button with a 5px border radius */
+}
+
+.anouncement {
+  color: green; /* Changes the text color of all elements with the class "anouncement" to green */
+  font-size: 25px; /* Changes the text size of all elements with the class "anouncement" to 25px */
+}
